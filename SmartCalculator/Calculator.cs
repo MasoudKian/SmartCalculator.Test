@@ -25,5 +25,6 @@ namespace SmartCalculator.Test
 
         public double Power(double baseNum, double exponent) =>
             Math.Pow(baseNum, exponent);
+
     }
 }
