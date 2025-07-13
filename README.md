@@ -1,6 +1,6 @@
-# 🧠 SmartCalculator
+# 🧠 SmartCalculator.Test
 
-A **simple, test-driven calculator** built with **.NET 9** and **xUnit** for practicing unit testing principles in C#.
+A **simple test-driven calculator** project built using **.NET 9** and **xUnit** — ideal for learning unit testing in C# and showcasing clean, maintainable code.
 
 ![.NET](https://img.shields.io/badge/.NET-9.0-blueviolet)
 ![xUnit](https://img.shields.io/badge/Tests-xUnit-green)
@@ -13,26 +13,28 @@ A **simple, test-driven calculator** built with **.NET 9** and **xUnit** for pra
 - ✅ Add two numbers
 - ✅ Subtract two numbers
 - ✅ Multiply two numbers
-- ✅ Divide two numbers with division-by-zero protection
-- ✅ Calculate power (exponentiation)
-- ✅ 100% tested using xUnit
+- ✅ Divide two numbers with divide-by-zero validation
+- ✅ Power (exponentiation)
+- ✅ All features fully unit-tested using xUnit
 
 ---
 
-## 🧪 Run the tests
+## 🧪 Run the Tests
 
-You can run unit tests using the CLI:
+To execute the unit tests:
 
 ```bash
 dotnet test
 📁 Project Structure
-kotlin
+php
 Copy
 Edit
-📦 SmartCalculator
- ┣ 📂 SmartCalculator              → Calculator class logic (Library)
- ┣ 📂 SmartCalculator.Tests        → Unit tests (xUnit)
- ┗ 📄 SmartCalculator.sln
+📦 SmartCalculator.Test (Solution)
+ ┣ 📂 SmartCalculator           → Class Library (Core logic: Calculator class)
+ ┃   ┗ 📄 Calculator.cs
+ ┣ 📂 SmartCalculator.Test      → xUnit test project
+ ┃   ┗ 📄 Calculator.Tests.cs
+ ┗ 📄 SmartCalculator.Test.sln
 📚 Technologies Used
 .NET 9 (Preview)
 
@@ -40,59 +42,25 @@ xUnit Testing Framework
 
 C# 13 (Latest)
 
-📌 Purpose
-This project is intended to:
+🎯 Purpose
+This project is built to:
 
-Learn and practice unit testing in .NET
+Practice unit testing in a clean and simple way
 
-Showcase clean code & test structure
+Understand how to structure a testable .NET application
 
-Share as an open-source portfolio on GitHub
+Serve as an open-source portfolio example on GitHub
 
-📥 How to Clone
+📥 How to Clone and Run
 bash
 Copy
 Edit
-git clone https://github.com/YOUR_USERNAME/SmartCalculator.git
-cd SmartCalculator
+git clone https://github.com/MasouKian/SmartCalculator.Test.git
+cd SmartCalculator.Test
 dotnet test
 📸 Screenshot
-(Optional – you can place a screenshot of your Visual Studio or test result here)
+(Optional – Add screenshot of passing tests or your IDE view)
 
-📄 License
-This project is licensed under the MIT License.
 
-Created with ❤️ by Your Name
-
-yaml
-Copy
-Edit
-
+Created with ❤️ by Masoud Kian
 ---
-
-## 🧩 دقیقاً باید چیکار کنی؟
-
-### ✅ مرحله 1: ویرایش فایل `README.md`
-1. برو به پوشه‌ی ریشه‌ی پروژه.
-2. فایل `README.md` رو باز کن یا بساز.
-3. محتویات بالا رو کپی و پیست کن داخل اون.
-4. `YOUR_USERNAME` و `Your Name` رو با نام کاربری و نام خودت جایگزین کن.
-
-مثلاً:
-https://github.com/alirezadev/SmartCalculator.git
-Created with ❤️ by Alireza Hosseini
-
-yaml
-Copy
-Edit
-
----
-
-### ✅ مرحله 2: Commit و Push به GitHub
-
-در ترمینال داخل مسیر پروژه این دستورات رو بزن:
-
-```bash
-git add README.md
-git commit -m "Add README file with project details"
-git push origin main
