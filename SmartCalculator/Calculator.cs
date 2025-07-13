@@ -9,6 +9,7 @@ namespace SmartCalculator.Test
 
     public class Calculator
     {
+        // add
         public double Add(double a, double b) => a + b;
 
         public double Subtract(double a, double b) => a - b;
@@ -25,7 +26,5 @@ namespace SmartCalculator.Test
 
         public double Power(double baseNum, double exponent) =>
             Math.Pow(baseNum, exponent);
-
-
     }
 }
